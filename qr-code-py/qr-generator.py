@@ -16,7 +16,7 @@ if __name__ == "__main__":
         # input for the user to enter a link
         link =  input("Enter the link to transform to a QR-Code: ").strip()
         # This will check if its a valid link
-        if link.endswith((".com",'.edu')):
+        if link.endswith((".com",'.edu', '.io/page/#/')):
             # do this
             qrcode_generator(link)
             exit = False
