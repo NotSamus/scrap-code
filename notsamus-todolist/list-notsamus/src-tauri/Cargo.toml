@@ -1,5 +1,5 @@
 [package]
-name = "notsamus-notes"
+name = "list-notsamus"
 version = "0.1.0"
 description = "A Tauri App"
 authors = ["you"]
